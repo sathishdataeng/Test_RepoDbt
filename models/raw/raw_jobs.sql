@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.TEST.JOBS
+select * from  {{ source('Test_dbt', 'jobs') }}
