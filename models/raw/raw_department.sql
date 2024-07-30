@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.LAUNCH_SCHEMA.DEPARTMENT
+select * from DBT_NEW_MODEL.Test.DEPARTMENT

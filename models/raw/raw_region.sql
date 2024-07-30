@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.LAUNCH_SCHEMA.region
+select * from DBT_NEW_MODEL.Test.region

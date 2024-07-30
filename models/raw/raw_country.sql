@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.LAUNCH_SCHEMA.COUNTRY
+select * from DBT_NEW_MODEL.Test.COUNTRY

@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.LAUNCH_SCHEMA.locations
+select * from DBT_NEW_MODEL.Test.locations

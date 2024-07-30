@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.LAUNCH_SCHEMA.JOB_HISTORY
+select * from DBT_NEW_MODEL.TEST.JOB_HISTORY

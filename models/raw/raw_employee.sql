@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.LAUNCH_SCHEMA.EMPLOYEE
+select * from DBT_NEW_MODEL.TEST.EMPLOYEE
