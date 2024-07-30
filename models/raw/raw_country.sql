@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.Test.COUNTRY
+select * from DBT_NEW_MODEL.TEST.COUNTRY

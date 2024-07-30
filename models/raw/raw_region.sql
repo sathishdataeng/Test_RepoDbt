@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.Test.region
+select * from DBT_NEW_MODEL.TEST.region

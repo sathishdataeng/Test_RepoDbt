@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.Test.locations
+select * from DBT_NEW_MODEL.TEST.locations

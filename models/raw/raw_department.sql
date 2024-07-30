@@ -4,4 +4,4 @@
     )
 }}
 
-select * from DBT_NEW_MODEL.Test.DEPARTMENT
+select * from DBT_NEW_MODEL.TEST.DEPARTMENT
