@@ -1,4 +1,3 @@
---based_jodid_sala.sql
 
 {{
     config(

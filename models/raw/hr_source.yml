@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: Test_dbt
+    database: DBT_NEW_MODEL
+    schema: TEST
+    tables:
+      - name: country
+      - name: department
+      - name: employee
+      - name: job_history
+      - name: jobs
+      - name: locations
+      - name: region
