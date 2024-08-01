@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: raw_employee
+    columns:
+      - name: EMAIL
+        tests:
+          - unique
+          - not_null
+
+      - name: JOB_ID
+        tests:
+          - accepted_values:
+              values: ['IT_PROG', 'FI_ACCOUNT', 'ST_MAN', 'ST_CLERK']
+      - name: FIRST_NAME
+        tests:
+          - unique
+          - not_null  
+              
