@@ -4,4 +4,4 @@
     )
 }}
 
-{{dep_count('raw_department,raw_employee')}}
+{{ dep_counts('raw_department','raw_employee')}}
