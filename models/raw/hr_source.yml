@@ -6,6 +6,7 @@ sources:
     schema: TEST
     tables:
       - name: country
+      - name: raw_product
       - name: department
       - name: employee
         columns: 
