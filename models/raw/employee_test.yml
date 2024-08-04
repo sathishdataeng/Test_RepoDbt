@@ -16,4 +16,8 @@ models:
         tests:
           - unique
           - not_null  
-              
+      - name: DEPARTMENT_ID        
+        tests:
+          - relationships:
+              field: DEPARTMENT_ID
+              to: ref('raw_department')
