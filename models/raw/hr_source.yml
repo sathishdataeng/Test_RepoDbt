@@ -8,6 +8,11 @@ sources:
       - name: country
       - name: department
       - name: employee
+        columns: 
+          - name: employee_id
+            tests:
+              - unique
+              - not_null
       - name: job_history
       - name: jobs
       - name: locations
