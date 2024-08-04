@@ -19,5 +19,5 @@ models:
       - name: department_id        
         tests:
           - relationships:
-              field: department_id
+              field: manager_id
               to: ref('raw_department')
