@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: employee
+    database: dbt_new_model  
+    schema: test  
+    tables:
+      - name: emp_src

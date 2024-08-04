@@ -35,6 +35,11 @@ clean-targets: # directories to be removed by `dbt clean`
 
 models:
   raw:
+    +tags: 
+      - hr_details
+      - hr_info
+      - hr_msg
+
     # Applies to all files under models/example/
     example:
       +materialized: table
